@@ -107,7 +107,7 @@ li {
 	display: inline-block;
 	margin: 0 -3px;
 	text-transform: uppercase;
-	padding: 20px;
+	padding: 30px;
 	vertical-align: middle;
 }
 
@@ -125,6 +125,28 @@ li {
 	text-align: center;
 }
 
+.slider-map {
+	margin: 20px 0;
+}
+
 .slider-map li {
 	display: inline-block;
+	margin: 0 5px;
+}
+
+.content {
+	float: left;
+	padding: 0 10px;
+}
+
+.news {
+	width: 400px;
+}
+
+.event {
+	width: 300px;
+}
+
+.booking {
+	width: 250px;
 }
