@@ -47,11 +47,26 @@ li {
 	font-weight: bold;
 }
 
+.button-area {
+	margin-top: 20px;
+	padding: 40px 0;
+	background-color: #ddd;
+	margin: 20px auto;
+}
+
 .button-read-more {
 	color: #fff;
 	background-color: #418dba;
 	float: right;
 	padding: 15px;
+}
+
+.button-about {
+	border-radius: 8px;
+	color: #fff;
+	background-color: #418dba;
+	padding: 15px;
+	margin: 0 9.5%;
 }
 
 .header-banner {
