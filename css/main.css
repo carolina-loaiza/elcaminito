@@ -21,7 +21,6 @@ h3 {
 }
 
 h4{
-	border-bottom: 1px solid #ccc;
 	font-size: 20px;
 }
 
@@ -45,6 +44,7 @@ li {
 .article-title {
 	color: #418dba;
 	font-weight: bold;
+	border-top: 1px solid #ccc;
 }
 
 .button-area {
@@ -90,9 +90,9 @@ li {
 	background-color: #bbb;
 }
 
-.nav-logo img{
+.nav-logo {
 	height: 100px;
-	left: 420px;
+	left: 20%;
 	position: absolute;
 	top: 4px;
 	width: 100px;
@@ -107,18 +107,15 @@ li {
 	display: inline-block;
 	margin: 0 -3px;
 	text-transform: uppercase;
-	padding: 30px;
+	padding: 3%;
 	vertical-align: middle;
 }
 
 .nav-main ul {
-	max-width: 700px;
-	margin: 0 30%;
+	width: 800px;
+	margin: 0 28%;
 }
 
-.news article {
-	border-bottom: 1px solid #ccc;
-}
 
 .map{
 	padding: 30px 250px; 
@@ -135,12 +132,14 @@ li {
 }
 
 .content {
+	border-top: 1px solid #ccc;
 	float: left;
-	padding: 0 10px;
+	padding: 30px;
 }
 
 .news {
 	width: 400px;
+	margin-left: 20%;
 }
 
 .event {
